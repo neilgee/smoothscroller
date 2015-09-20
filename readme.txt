@@ -2,7 +2,7 @@
 
 Contributors: neilgee
 Donate link: http://wpbeaches.com/
-Tags: smooth, scoll, links, anchor
+Tags: smooth, scroll, links, anchor, page, posts
 Requires at least: 4.0
 Tested up to: 4.3
 Stable tag: 1.0.0
