@@ -49,7 +49,7 @@ function scripts_styles() {
 //if( !isset( $options['ss_all_pages'] ) ) $options['ss_all_pages'] = 0;
   if( isset($options['ss_all_pages'] )) {
 
-	wp_register_script( 'scrollto', '//cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js', array( 'jquery' ), '2.1.0', true );
+	wp_register_script( 'scrollto', '//cdn.jsdelivr.net/jquery.scrollto/2.1.1/jquery.scrollTo.min.js', array( 'jquery' ), '2.1.1', true );
 	wp_register_script( 'localscroll', '//cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js', array( 'scrollto' ), '1.4.0', true );
 	wp_register_script( 'localscroll-init', plugins_url( '/js/localscroll-init.js',  __FILE__ ), array( 'localscroll' ), '1', true );
 

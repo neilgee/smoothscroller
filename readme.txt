@@ -32,24 +32,34 @@ This section describes how to install the plugin:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Options are in Settings => Smoothscroller
 
+
+== Frequently Asked Questions ==
+
+= How do I make a link on the same page =
+
+You surround the source in link HTML tags like so, with a href attribute of the target ID <a href="#target"></a> 
+
+For the target you give it an ID attribute like so - this is <span id="target">the target</span>
+
+
 == Usage ==
 
 The settings are found via the dashboard Settings > Smoothscroller
 
 - Select to apply to all post and pages
 
-- Select to have on home page
+- Select to have on home page only
 
-- Select to have on certain pages
+- Select to have on certain pages only
 
-- Select to have on certain posts
+- Select to have on certain posts only
 
 - Choose the speed of the scroll
 
 
 == Screenshots ==
 
-1. 
+1. Image of internal options
 
 == Changelog ==
 
